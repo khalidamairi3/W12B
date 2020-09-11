@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+
+#create_tweets{
+    width: 50%;
+    font-family: 'cursive';
+    background-color: rgb(238, 235, 235);
+    border-radius: 15px 15px 15px 15px;
+    #title, #body {
+        width: 200px;
+       
+    }
+
+    #tweet-submit{
+        background-color: rgb(73, 178, 248);
+        color: white;
+    }
+    margin-bottom: 5vh;
+}
+
+#tweets{
+    justify-items: center;
+    align-content: center;
+    display: grid;
+}
+
+.tweet{
+    width: 70%;
+    background-color:rgb(226, 222, 222);
+    margin-bottom: 5vh;
+    border-radius: 15px 15px 15px 15px;
+
+}
+.comments{
+    margin-left: 15%;
+    background-color: aqua;
+    width: 70%;
+    .comment{
+        border: 1px solid black;
+    }
+}
+
